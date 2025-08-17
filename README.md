@@ -81,7 +81,7 @@ A solução do Desafio 3 foi feita inteiramente em **Python**, utilizando o **Ju
 4. Gráficos adicionais também podem ser acessados no notebook:
 
    ```
-graficos.ipynb   ```
+   graficos.ipynb  
 
 ---
 
