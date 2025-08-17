@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    image: jupyter/pyspark-notebook:python-3.11
+    container_name: sparklab
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    environment:
+      JUPYTER_TOKEN: "magalu"
+      SPARK_OPTS: "--driver-memory 4g --executor-memory 4g"
+    volumes:
+      # Mapeia a pasta de dados para dentro do container
+      - ./dados:/home/jovyan/work/dados
+      # Mapeia a pasta de notebooks para dentro do container
+      - ./notebooks:/home/jovyan/work/notebooks
+    restart: unless-stopped

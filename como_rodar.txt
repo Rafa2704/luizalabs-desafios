@@ -1,0 +1,12 @@
+desafio 1
+1- dentro da pasta raiz do projeto abra o cmd e rode 
+docker compose up -d
+
+2- abra navegador e execute http://localhost:8888/?token=magalu
+
+
+DESAFIO2
+subindo o postgres pra depois criar a query q soluciona o desafio 
+
+roda esse comando no cmd com Docker aberto
+docker run --name desafio2_postgres -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=desafio2db -p 5432:5432 -d postgres:14
