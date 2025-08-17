@@ -94,6 +94,7 @@ A solução do Desafio 3 foi feita inteiramente em **Python**, utilizando o **Ju
 ├── notebooks/              # Jupyter notebook com as soluções do desafio 1 e gráficos
 ├── docker-compose.yml      # Configuração Docker para ambiente Spark + Jupyter
 ├── como_rodar.txt          # Instruções de execução simplificadas
+├── graficos.ipynb          # Graficos gerados dos desafios 1 e 3
 └── README.md               # Este arquivo
 ```
 
